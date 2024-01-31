@@ -7,18 +7,15 @@ Player Class: There is a Player class that represents individual soccer players.
 
 Operations:
 
-addPlayer: Allows the addition of new players to the list of players.
-assignJersey: Randomly assigns jersey numbers to players in the team.
-formTeam: Forms a team from the list of players by selecting the top players based on their skill levels and sorts them by last names.
-formStartingLineup: Forms a starting lineup for the team by selecting players based on their preferred positions and skill levels.
-startingLineupString: Generates a formatted string representation of the starting lineup, including player names and jersey numbers.
-officialTeamString: Generates a formatted string representation of the official team roster, including player names and jersey numbers.
-Validation: The program validates the list of players to ensure it is not null, contains a minimum required number of players, and sorts players by skill level when forming the team.
-
-Sorting: Players are sorted by last name and skill level using custom sorting methods.
-
-Constants: It defines constants for the maximum and minimum team sizes (MAX_TEAM and MIN_TEAM).
-
-Error Handling: The program throws IllegalArgumentException in case of invalid inputs or insufficient players.
-
-Random Assignment: Jersey numbers are assigned randomly to the players using a shuffled list of numbers.
+- addPlayer: Allows the addition of new players to the list of players.
+- assignJersey: Randomly assigns jersey numbers to players in the team.
+- formTeam: Forms a team from the list of players by selecting the top players based on their skill levels and sorts them by last names.
+- formStartingLineup: Forms a starting lineup for the team by selecting players based on their preferred positions and skill levels.
+- startingLineupString: Generates a formatted string representation of the starting lineup, including player names and jersey numbers.
+- officialTeamString: Generates a formatted string representation of the official team roster, including player names and jersey numbers.
+  
+- Validation: The program validates the list of players to ensure it is not null, contains a minimum required number of players, and sorts players by skill level when forming the team.
+- Sorting: Players are sorted by last name and skill level using custom sorting methods.
+- Constants: It defines constants for the maximum and minimum team sizes (MAX_TEAM and MIN_TEAM).
+- Error Handling: The program throws IllegalArgumentException in case of invalid inputs or insufficient players.
+- Random Assignment: Jersey numbers are assigned randomly to the players using a shuffled list of numbers.
